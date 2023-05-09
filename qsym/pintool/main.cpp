@@ -58,8 +58,8 @@ bool checkOpt() {
 
   // one of them should be true
   if (!b1 && !b2 && !b3) {
-    LOG_INFO("No option is specified: use stdin\n");
-    g_opt_stdin.AddValue("1");
+    LOG_INFO("No option is specified\n");
+    // g_opt_stdin.AddValue("1");
     return true;
   }
 
