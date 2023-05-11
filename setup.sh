@@ -15,12 +15,6 @@ sudo apt-get install -y libc6 libstdc++6 linux-libc-dev gcc-multilib \
   llvm-dev g++ g++-multilib python \
   lsb-release
 
-# install pip
-sudo apt-get install wget
-wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-python get-pip.py
-rm -rf ./get-pip.py
-
 # install z3
 pushd third_party/z3
 rm -rf build
